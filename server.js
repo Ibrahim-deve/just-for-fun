@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
-const allowedOrigins = ['heartfelt-sable-d9471d.netlify.app']; // Update with your Netlify URL
+const allowedOrigins = ['https://heartfelt-sable-d9471d.netlify.app']; // Update with your Netlify URL
 app.use(
   cors({
     origin: allowedOrigins,
